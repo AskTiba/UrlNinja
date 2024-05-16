@@ -1,5 +1,15 @@
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import LinkInput from "./components/LinkInput";
+
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Header />
+      <Hero />
+      <LinkInput />
+    </>
+  );
 };
 
 export default App;
