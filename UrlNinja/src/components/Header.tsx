@@ -5,12 +5,12 @@ import MenuIcon from "@mui/icons-material/Menu";
 const Header = () => {
   return (
     <>
-      <main className="mt-6 sticky top-6 text-violet-500 text-[15px] mx-[8%] font-[500]">
+      <main className="mt-6 sticky top-6 text-violet-500 text-[15px] mx-[8%] font-[Poppins] font-[500]">
         <div className="flex justify-between">
           <div className="flex items-center">
-            <div className="flex gap-80 mr-10">
-              <img src={logo} alt="" className="mobile:w-[65dvw]" />
-              <button className="hidden mobile:block">
+            <div className="flex">
+              <img src={logo} alt="" className="mobile:w-[40dvw]" />
+              <button className="hidden mobile:block ml-32 -mt-3">
                 <MenuIcon fontSize="large" htmlColor="gray" />
               </button>
             </div>

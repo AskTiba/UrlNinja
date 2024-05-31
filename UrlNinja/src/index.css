@@ -4,8 +4,8 @@
 
 :root {
   font-family: "Poppins", sans-serif;
-  /* font-size: clamp(1px, 2vw, 18px); */
-  font-size: 18px;
+  /* font-size: clamp(16px, 112.5vw, 18px); */
+  /* font-size: 18px; */
   line-height: 1.5;
   font-weight: 500;
 
@@ -19,10 +19,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
 /* button {
   border-radius: 8px;
