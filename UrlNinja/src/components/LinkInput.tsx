@@ -18,7 +18,7 @@ const LinkInput = () => {
   };
 
   return (
-    <main className="mx-[8%]">
+    <main className="mx-[5%] relative -top-[68px]">
       {/* Wrapper for the background image with opacity applied */}
       <div className="relative h-fit mt-10">
         <div
@@ -28,7 +28,7 @@ const LinkInput = () => {
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-violet-300 opacity-80 rounded-[6px]"></div>
         {/* Content */}
-        <div className="flex justify-center gap-5 items-center py-10 relative z-10">
+        <div className="flex flex-col justify-center gap-4 items-center py-5 px-5 relative z-10">
           <form className="" onSubmit={handleSubmit}>
             <input
               id="link-input"
@@ -36,11 +36,11 @@ const LinkInput = () => {
               placeholder="Shorten a link here..."
               value={link}
               onChange={handleInputChange}
-              className="py-3 px-5 w-[64vw] rounded-[10px] ml-6 placeholder:text-[#a6acb2]"
+              className="py-2 px-6 w-full rounded-[4px] placeholder:text-[#a6acb2]"
             />
           </form>
-          <Button className="bg-cyan font-[700] text-white rounded-[4px] mr-6 py-3 px-10">
-            Shorten it
+          <Button className="bg-cyan w-full font-[700] text-white rounded-[4px] py-2">
+            Shorten it!
           </Button>
         </div>
       </div>

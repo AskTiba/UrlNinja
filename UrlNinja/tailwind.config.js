@@ -11,7 +11,7 @@ export const theme = {
   container: {},
   extend: {
     screens: {
-      mobile: { max: "768px" },
+      mobile: "375px",
       desktop: "1440px",
     },
     colors: {
