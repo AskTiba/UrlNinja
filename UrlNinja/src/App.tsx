@@ -10,17 +10,23 @@ const App = () => {
   return (
     <>
       <main className="bg-[#f7f7fa] overflow-x-hidden">
-        <div className=" ">
-          <Header />
-          <Hero />
-          <LinkInput />
-          <Statistics />
-          <Cards />
-          <div className="">
-            <Boost />
+        <div className="">
+          <div>
+            <Header />
+            <Hero />
           </div>
-          <div className="w-screen">
-            <Footer />
+          <div className="bg-gray-100 relative">
+            <div className="">
+              <LinkInput />
+              <Statistics />
+              <Cards />
+              <div className="">
+                <Boost />
+              </div>
+              <div className="w-screen">
+                <Footer />
+              </div>
+            </div>
           </div>
         </div>
       </main>
